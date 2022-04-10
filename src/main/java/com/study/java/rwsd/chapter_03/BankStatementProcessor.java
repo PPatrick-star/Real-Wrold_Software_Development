@@ -44,10 +44,10 @@ public class BankStatementProcessor {
         return total;
     }
 
-    public List<BankTransaction> findTransactionsInMonthAndGreater(final Month month, final int amount) {
+    public List<BankTransaction> findTransactions(final BankTransactionFilter bankTransactionFilter) {
         final List<BankTransaction> result = new ArrayList<>();
         for (final BankTransaction bankTransaction : bankTransactions) {
-            if (bankTransaction.getAmount() >= amount || bankTransaction.getDate().getMonth() == month) {
+            if (bankTransactionFilter.test(bankTransaction)){
                 result.add(bankTransaction);
             }
         }
