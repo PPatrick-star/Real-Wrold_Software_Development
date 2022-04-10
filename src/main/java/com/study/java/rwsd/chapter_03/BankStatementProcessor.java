@@ -47,7 +47,7 @@ public class BankStatementProcessor {
     public List<BankTransaction> findTransactionsInMonthAndGreater(final Month month, final int amount) {
         final List<BankTransaction> result = new ArrayList<>();
         for (final BankTransaction bankTransaction : bankTransactions) {
-            if (bankTransaction.getAmount() >= amount && bankTransaction.getDate().getMonth() == month) {
+            if (bankTransaction.getAmount() >= amount || bankTransaction.getDate().getMonth() == month) {
                 result.add(bankTransaction);
             }
         }
