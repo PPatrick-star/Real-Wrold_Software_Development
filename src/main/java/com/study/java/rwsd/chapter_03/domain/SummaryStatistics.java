@@ -1,4 +1,4 @@
-package com.study.java.rwsd.chapter_03;
+package com.study.java.rwsd.chapter_03.domain;
 
 public class SummaryStatistics {
 
