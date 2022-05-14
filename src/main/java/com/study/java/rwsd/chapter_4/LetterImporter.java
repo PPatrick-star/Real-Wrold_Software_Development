@@ -1,8 +1,8 @@
-package com.study.java.rwsd.chapter4;
+package com.study.java.rwsd.chapter_4;
 
 import java.io.File;
 
-class ReportImporter implements Importer{
+class LetterImporter implements Importer{
     @Override
     public Document importFile(final File file) {
 

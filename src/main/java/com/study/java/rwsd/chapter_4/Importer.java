@@ -1,4 +1,4 @@
-package com.study.java.rwsd.chapter4;
+package com.study.java.rwsd.chapter_4;
 
 import java.io.File;
 import java.io.IOException;
