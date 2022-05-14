@@ -1,6 +1,4 @@
-package com.study.java.rwsd.chapter4;
-
-import com.study.java.rwsd.chapter_02.MainApplication;
+package com.study.java.rwsd.chapter_4;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.study.java.rwsd.chapter4;
+package com.study.java.rwsd.chapter_4;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.study.java.rwsd.chapter4.Attributes.*;
+import static com.study.java.rwsd.chapter_4.Attributes.*;
 
 class ImageImporter implements Importer{
     @Override
